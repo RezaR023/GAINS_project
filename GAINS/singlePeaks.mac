@@ -1,0 +1,5 @@
+/gps/particle gamma
+/gps/pos/type Point
+/gps/ang/type iso
+
+/GAINS/runSinglePeaks Efficiencies/Eu-152-peaks.txt Efficiencies 10000000

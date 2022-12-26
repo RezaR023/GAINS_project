@@ -1,0 +1,10 @@
+#/process/had/rdm/setPhotoEvaporationFile 63 152 sampleEvapData_z63.a152
+
+/analysis/setFileName GAINS.root
+
+/control/execute vis.mac
+
+/gps/particle ion
+/gps/ion 63 152 0 0
+
+#/run/beamOn 10

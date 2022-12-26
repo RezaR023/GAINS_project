@@ -1,0 +1,7 @@
+/gps/particle gamma
+/gps/pos/type Point
+/gps/ang/type iso
+
+#/analysis/setFileName GAINS.root
+
+/control/execute vis.mac
