@@ -20,19 +20,22 @@ To build the image you need to excecute as a root user the Dockerfile and tag it
 ```bash
 docker build --no-cache -t gains_project .
 ```
+To rebuild the docker image, just exectue the following command:
+```bash
+docker build -t gains_project .
+```
+
 It might take an hour (or more) to install the packges and build the image.
 
 ## Run the Docker container
 After succefully building the image, you can run a container using the built image:
 
 ```bash
-#docker run -it -p 8888:8888 --rm gains_project --name my-gains
 docker run -it -p 8888:8888 --name my-gains --rm gains_project
 ```
 To have a shell access in the inside the running container, simply run the following commands:
 
 ```bash
-#docker run -it -d -p 8888:8888 --rm gains_project --name my-gains
 docker run -it -d -p 8888:8888 --name my-gains --rm gains_project
 ```
 and then 
