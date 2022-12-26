@@ -1,0 +1,7 @@
+metakernel
+notebook=6.1.4
+jupyterhub=1.2.1
+jupyterlab=2.2.9
+ipympl=0.6.*
+pandas
+matplotlib
