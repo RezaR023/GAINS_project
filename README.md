@@ -48,3 +48,12 @@ Since the containers does not have graphical user interface by default, you have
 ```bash
 root -b -l
 ```
+
+To set a password for the jupyter-notebook, you need to add the following line of command in the file called, "jupyter_notebook_config.py":
+
+c.NotebookApp.password = u'sha1:[your hashed password]'
+
+To hide your password, you can use a hashed password using the following website:
+"http://www.sha1-online.com/".
+
+Please note that you should rebuild your docker image after editing jupyter_notebook_config.py. 
